@@ -5,7 +5,7 @@
   --black-color: #000;
   --lighter-black-color: #222;
   --white-color: #fff;
-  --grey-color: #fcfcfc;
+  --grey-color: #f3f3f3;
   --green-btn-color: #54ab2b;
   --yellow-star-color: #e5e93e;
 }
@@ -35,8 +35,6 @@ body {
 .header__top {
   padding: 1.4rem 1rem;
 }
-.header__logo-wrapper {
-}
 .header__logo {
   font-family: var(--primary-font);
   margin: 0;
@@ -46,15 +44,14 @@ body {
   text-decoration: none;
   color: var(--black-color);
 }
-.header__nav {
-}
 .header__nav-list {
-  background-color: var(--black-color);
+  background-color: var(--lighter-black-color);
   display: none;
   list-style-type: none;
   padding: 1rem;
   line-height: 4;
   text-align: left;
+  margin: 0;
 }
 .header__nav-link {
   font-family: var(--secondary-font);
@@ -74,5 +71,140 @@ body {
   float: right;
 }
 /* Header Styling End */
+
+/* Hero Styling Start */
+.hero__container {
+  background-image: url("/images/man-driving-a-car-small.jpg");
+  background-color: #222;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: var(--white-color);
+  padding: 1rem;
+  padding-top: 2rem;
+}
+.hero__title {
+  font-family: var(--primary-font);
+  line-height: 1.4;
+}
+.hero__desc {
+  font-family: var(--secondary-font);
+  line-height: 1.6;
+}
+.hero__btn-wrapper {
+  margin-top: 2.5rem;
+}
+.hero__btn {
+  background-color: var(--green-btn-color);
+  text-decoration: none;
+  color: var(--white-color);
+  padding: 1rem;
+  border-radius: 5px;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-right: 1rem;
+}
+.hero__btn:nth-child(2) {
+  margin-right: 0;
+}
+
+/* Hero Styling End */
+
+/* Service Styling Start */
+.service__container {
+  padding: 1rem;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: var(--grey-color);
+}
+.service__title,
+.service__icon-title {
+  font-family: var(--primary-font);
+}
+.service__desc,
+.service__icon-desc {
+  font-family: var(--secondary-font);
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+.service__icons-container {
+  display: grid;
+  gap: 2.7rem;
+  margin-top: 4rem;
+}
+.service__icon {
+  height: 140px;
+}
+
+/* Service Styling End */
+
+/* Homepage Courses Styling Start */
+.homepage-courses__container {
+  text-align: center;
+  padding: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+.homepage-courses__title {
+  font-family: var(--primary-font);
+  line-height: 1.5;
+}
+.homepage-courses__desc {
+  font-family: var(--secondary-font);
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+.homepage-courses__cards-container {
+  display: grid;
+  gap: 1.8rem;
+  margin-top: 4rem;
+}
+.homepage-courses__card {
+  background-color: var(--lighter-black-color);
+  color: var(--white-color);
+  border-radius: 20px;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.homepage-courses__card-type {
+  font-family: var(--primary-font);
+}
+.homepage-courses__card-price {
+  font-family: var(--secondary-font);
+  font-size: 5rem;
+}
+.homepage-courses__list {
+  font-family: var(--secondary-font);
+  padding: 0;
+  list-style-type: none;
+  line-height: 3;
+  font-weight: bold;
+}
+.homepage-courses__list-item:nth-child(2) {
+  border-top: solid 2px #fff;
+}
+.homepage-courses__list-item:nth-child(3) {
+  border-top: solid 2px #fff;
+  border-bottom: solid 2px #fff;
+}
+.homepage-courses__btn {
+  background-color: var(--green-btn-color);
+  text-decoration: none;
+  color: var(--white-color);
+  padding: 1rem;
+  border-radius: 5px;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 0.9rem;
+  position: relative;
+  top: 3rem;
+}
+/* Homepage Courses Styling End */
 
 /* CSS End */
