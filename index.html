@@ -12,19 +12,56 @@
     <meta name="keywords" content="Driving school, Training, Driving instructor, Manchester, UK" />
     <meta name="author" content="Ramzan Aslam" />
     <title>Ramzan's Driving School</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav></nav>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__top">
+          <div class="header__logo-wrapper">
+            <h1 class="header__logo"><a class="header__logo-link" href="/index.html">RDS</a></h1>
+          </div>
+
+          <div class="header__menu-icon">
+            <i class="fas fa-bars" id="toggle"></i>
+          </div>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav-list" id="nav-panel">
+            <li class="header__nav-item"><a class="header__nav-link" href="/index.html">Home</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="/index.html">Pricing</a></li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="/index.html">Additional Information</a>
+            </li>
+            <li class="header__nav-item"><a class="header__nav-link" href="/index.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__contact-wrapper">
+          <i class="fas fa-phone-alt"></i>
+          <a href="tel:+447831756848">07831756848</a>
+        </div>
+      </div>
     </header>
 
-    <main>
-      <h1>Hello World!</h1>
-    </main>
+    <main></main>
 
     <footer></footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
