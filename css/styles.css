@@ -509,6 +509,7 @@ main {
     display: flex;
     justify-content: left;
     align-items: center;
+    padding-left: 0;
   }
   .header__number {
     font-family: var(--secondary-font);
