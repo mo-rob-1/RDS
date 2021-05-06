@@ -98,6 +98,9 @@ iframe {
 .hero__title {
   font-family: var(--primary-font);
   line-height: 1.4;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  font-size: 2.5rem;
 }
 .hero__desc {
   font-family: var(--secondary-font);
@@ -558,6 +561,9 @@ textarea {
   .fa-phone-alt {
     position: relative;
     right: 0.4rem;
+  }
+  .hero__title {
+    font-size: 3rem;
   }
   .hero__desc {
     margin: 0 auto;
