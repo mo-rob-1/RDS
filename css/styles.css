@@ -378,6 +378,7 @@ iframe {
   text-align: center;
   font-family: var(--primary-font);
   margin: 0;
+  font-size: 2.5rem;
 }
 /* Block Styling End */
 
@@ -616,7 +617,7 @@ textarea {
     text-decoration: underline;
   }
   .header__nav-item {
-    margin-right: 2rem;
+    margin-right: 4rem;
   }
   .header__nav-item:nth-child(4) {
     margin-right: 0;
