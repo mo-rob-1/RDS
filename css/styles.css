@@ -494,6 +494,13 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0;
+  }
+  .button {
+    margin-right: 1rem;
+  }
+  .button:nth-child(3) {
+    margin-right: 0;
   }
   .reviews__card-container {
     display: grid;
